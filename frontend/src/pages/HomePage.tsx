@@ -38,7 +38,7 @@ export function HomePage() {
   const { data, loading, error } = useDashboardData();
   const [query, setQuery] = useState('');
   const [sector, setSector] = useState('all');
-  const [minimumConfidence, setMinimumConfidence] = useState(0);
+  const [minimumConfidence, setMinimumConfidence] = useState(65);
   const [watchlistOnly, setWatchlistOnly] = useState(false);
   const [viewMode, setViewMode] = useLocalStorage<'table' | 'cards'>('hypeboard-view-mode', 'table');
   const [watchlist, setWatchlist] = useLocalStorage<string[]>('hypeboard-watchlist', []);
@@ -83,7 +83,12 @@ export function HomePage() {
   if (loading) return <div className="container page-space"><LoadingState /></div>;
   if (error || !data) return <div className="container page-space"><ErrorState message={error ?? 'No data returned'} /></div>;
 
-  const ranked = data.latest.symbols.filter((stock) => stock.rank !== null);
+  const ranked = data.latest.symbols.filter(
+  (stock) =>
+    stock.rank !== null
+    && stock.confidence_score >= 65
+    && stock.score_coverage >= 0.99
+);
   const biggestScoreRiser = [...ranked]
     .filter((stock) => stock.hype_score_change !== null)
     .sort((a, b) => (b.hype_score_change ?? -Infinity) - (a.hype_score_change ?? -Infinity))[0];
