@@ -1,0 +1,98 @@
+{
+  "snapshot_type": "real_public_observations_for_resilient_offline_builds",
+  "not_demo_data": true,
+  "assembled_at": "2026-07-19T23:37:00+02:00",
+  "market_date": "2026-07-17",
+  "sources": [
+    {
+      "name": "market_snapshot",
+      "file": "market_snapshot_2026-07-17.csv",
+      "description": "Real daily market observations for the configured universe, captured for the dated offline baseline.",
+      "status_when_used": "cached"
+    },
+    {
+      "name": "wikimedia_pageviews",
+      "file": "wikipedia_pageviews.csv",
+      "description": "Daily Wikimedia Pageviews API observations through 2026-07-18 for nine covered company pages.",
+      "status_when_used": "cached"
+    },
+    {
+      "name": "finra_consolidated_nms_short_volume",
+      "directory": "finra",
+      "description": "Official FINRA consolidated NMS daily short-sale-volume files for available July 2026 trade dates through 2026-07-17.",
+      "status_when_used": "cached"
+    }
+  ],
+  "files": [
+    {
+      "path": "finra/CNMSshvol20260701.txt",
+      "bytes": 542243,
+      "sha256": "a7ce3ac4215015767a1675a2bdd37d1fd258d6e95675b06f2b03f7830ef86469"
+    },
+    {
+      "path": "finra/CNMSshvol20260702.txt",
+      "bytes": 540756,
+      "sha256": "7aff485aed029f09bf410f44cb95f36a476cf52bbba41be941862b723a0b5a07"
+    },
+    {
+      "path": "finra/CNMSshvol20260706.txt",
+      "bytes": 539945,
+      "sha256": "1d070b32eb08d51b7e02237289431f406641437c073f5be632ac7eec0eb66fd9"
+    },
+    {
+      "path": "finra/CNMSshvol20260707.txt",
+      "bytes": 535823,
+      "sha256": "7b60dec40ff83147308bf2ff133841ac01ddc27e09bf7dd940da6268c9e953fe"
+    },
+    {
+      "path": "finra/CNMSshvol20260708.txt",
+      "bytes": 535088,
+      "sha256": "f5ea3432482d243bcf6f297782495bef2dc9a628be7c0248b9e2acd1a002ffda"
+    },
+    {
+      "path": "finra/CNMSshvol20260709.txt",
+      "bytes": 528182,
+      "sha256": "c9a72ebe004984b4202115211b146e4bd1de58f7678a72ed8ef5281256f8afb9"
+    },
+    {
+      "path": "finra/CNMSshvol20260710.txt",
+      "bytes": 527593,
+      "sha256": "40435216bf157f41a99ea3d9ab2de103af984d2721b34b89303761a8e3ac2ba1"
+    },
+    {
+      "path": "finra/CNMSshvol20260713.txt",
+      "bytes": 532135,
+      "sha256": "b70bb5074197ddd02f37d8c99095d07a0397caa153d9e006cb32136b3ef05864"
+    },
+    {
+      "path": "finra/CNMSshvol20260714.txt",
+      "bytes": 527896,
+      "sha256": "a557da1e285463bcf791ad329f8159c8dfeb2561a62b598bb6470bcf10c6257a"
+    },
+    {
+      "path": "finra/CNMSshvol20260715.txt",
+      "bytes": 530887,
+      "sha256": "e62c4eee6e8e356b8e60d7e21e70d4771128f92e5e4d7103879e54e4bf2ac8df"
+    },
+    {
+      "path": "finra/CNMSshvol20260716.txt",
+      "bytes": 533783,
+      "sha256": "847d896758171a0f64276e40a99bc37e4cc66be1dff5e411fd0c2dd66dd523b9"
+    },
+    {
+      "path": "finra/CNMSshvol20260717.txt",
+      "bytes": 532343,
+      "sha256": "516385f1e7e454c83ae3487c98ef7c99b6988599608666364930ffb87dea9816"
+    },
+    {
+      "path": "market_snapshot_2026-07-17.csv",
+      "bytes": 2809,
+      "sha256": "e11ab563777dc4da0db75ecd80cac999ebad6929b5632dfd8afb8f951cc52796"
+    },
+    {
+      "path": "wikipedia_pageviews.csv",
+      "bytes": 16525,
+      "sha256": "11361f2ea0fd98448ff27e4e130f47ca1d485190906888527e869fcf4e820aa0"
+    }
+  ]
+}

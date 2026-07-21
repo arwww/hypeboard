@@ -1,0 +1,1 @@
+"""Hypeboard config package."""

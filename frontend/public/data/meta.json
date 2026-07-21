@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-07-20T20:09:13.617032Z",
+  "last_successful_overall_update": "2026-07-20T20:09:13.617032Z",
+  "latest_market_date": "2026-07-17",
+  "score_version": "1.0.0",
+  "universe_size": 30,
+  "successful_symbols": 30,
+  "failed_symbols": 0,
+  "sources": [
+    {
+      "source": "market_data",
+      "status": "cached",
+      "last_observation_at": "2026-07-17",
+      "retrieved_at": "2026-07-20T20:09:13.617032Z",
+      "records": 30,
+      "symbols_updated": 30,
+      "error": "live retrieval failed; bundled real snapshot used: no market symbols were updated",
+      "delay_note": "Daily end-of-day data. Provider availability and adjustments may be delayed; Stooq exposes no official API SLA for the CSV endpoint."
+    },
+    {
+      "source": "wikipedia",
+      "status": "partial",
+      "last_observation_at": "2026-07-19",
+      "retrieved_at": "2026-07-20T20:09:13.617032Z",
+      "records": 2280,
+      "symbols_updated": 19,
+      "error": "AMZN: wikipedia request failed: retryable response 429; COIN: wikipedia request failed: retryable response 429; MSTR: wikipedia request failed: retryable response 429; RIVN: wikipedia request failed: retryable response 429; SOFI: wikipedia request failed: retryable response 429; NFLX: wikipedia request failed: retryable response 429; INTC: wikipedia request failed: retryable response 429; BABA: wikipedia request failed: retryable response 429",
+      "delay_note": "Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay."
+    },
+    {
+      "source": "finra_short_volume",
+      "status": "fresh",
+      "last_observation_at": "2026-07-17",
+      "retrieved_at": "2026-07-20T20:09:13.617032Z",
+      "records": 930,
+      "symbols_updated": 30,
+      "error": null,
+      "delay_note": "FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest."
+    },
+    {
+      "source": "social",
+      "status": "unavailable",
+      "last_observation_at": null,
+      "retrieved_at": "2026-07-20T20:09:13.617032Z",
+      "records": 0,
+      "symbols_updated": 0,
+      "error": "no public social data endpoint configured",
+      "delay_note": "No public social provider is active unless HYPEBOARD_SOCIAL_DATA_URL is configured."
+    }
+  ],
+  "warnings": [
+    "Social attention is not active; Attention weights are renormalized when coverage permits.",
+    "Market data uses the last successful real snapshot because live retrieval was unavailable."
+  ],
+  "legal_notice": "Hypeboard stellt keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung dar. Die dargestellten Werte basieren auf öffentlichen Marktdaten und Näherungsindikatoren. Der Hype Score misst keine exakten Brokerpositionen und keinen exakten Anteil von Privatanlegern."
+}

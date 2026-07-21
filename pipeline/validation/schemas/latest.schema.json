@@ -1,0 +1,267 @@
+{
+  "$defs": {
+    "DataStatus": {
+      "enum": [
+        "fresh",
+        "cached",
+        "stale",
+        "partial",
+        "unavailable"
+      ],
+      "title": "DataStatus",
+      "type": "string"
+    },
+    "LatestSymbol": {
+      "additionalProperties": false,
+      "properties": {
+        "symbol": {
+          "title": "Symbol",
+          "type": "string"
+        },
+        "company_name": {
+          "title": "Company Name",
+          "type": "string"
+        },
+        "exchange": {
+          "title": "Exchange",
+          "type": "string"
+        },
+        "sector": {
+          "title": "Sector",
+          "type": "string"
+        },
+        "price": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Price"
+        },
+        "daily_return_pct": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Daily Return Pct"
+        },
+        "volume": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Volume"
+        },
+        "volume_ratio_30d": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Volume Ratio 30D"
+        },
+        "attention_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Attention Score"
+        },
+        "trading_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trading Score"
+        },
+        "retail_proxy_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Retail Proxy Score"
+        },
+        "impact_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Impact Score"
+        },
+        "hype_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Hype Score"
+        },
+        "hype_score_change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hype Score Change"
+        },
+        "confidence_score": {
+          "title": "Confidence Score",
+          "type": "number"
+        },
+        "rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Rank"
+        },
+        "rank_change": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Rank Change"
+        },
+        "data_status": {
+          "$ref": "#/$defs/DataStatus"
+        },
+        "drivers": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Drivers",
+          "type": "array"
+        },
+        "score_coverage": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Score Coverage",
+          "type": "number"
+        },
+        "source_dates": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Source Dates",
+          "type": "object"
+        }
+      },
+      "required": [
+        "symbol",
+        "company_name",
+        "exchange",
+        "sector",
+        "price",
+        "daily_return_pct",
+        "volume",
+        "volume_ratio_30d",
+        "attention_score",
+        "trading_score",
+        "retail_proxy_score",
+        "impact_score",
+        "hype_score",
+        "confidence_score",
+        "rank",
+        "rank_change",
+        "data_status",
+        "drivers",
+        "score_coverage",
+        "source_dates"
+      ],
+      "title": "LatestSymbol",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "market_date": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Market Date"
+    },
+    "score_version": {
+      "title": "Score Version",
+      "type": "string"
+    },
+    "symbols": {
+      "items": {
+        "$ref": "#/$defs/LatestSymbol"
+      },
+      "title": "Symbols",
+      "type": "array"
+    }
+  },
+  "required": [
+    "generated_at",
+    "market_date",
+    "score_version",
+    "symbols"
+  ],
+  "title": "LatestPayload",
+  "type": "object"
+}

@@ -1,0 +1,47 @@
+{
+  "score_version": "1.0.0",
+  "history_window_days": 30,
+  "minimum_history_observations": 10,
+  "robust_z_clip": 8.0,
+  "component_min_coverage": {
+    "attention": 0.5,
+    "trading": 0.5,
+    "retail_proxy": 0.5,
+    "impact": 0.5,
+    "hype": 0.25
+  },
+  "weights": {
+    "attention": {
+      "wikipedia_attention_shock": 0.55,
+      "social_attention": 0.45
+    },
+    "trading": {
+      "unusual_volume": 0.6,
+      "absolute_daily_move": 0.25,
+      "volatility_shock": 0.15
+    },
+    "retail_proxy": {
+      "short_term_activity": 0.5,
+      "short_sale_volume_change": 0.3,
+      "additional_retail_proxies": 0.2
+    },
+    "impact": {
+      "price_move_per_dollar_volume": 0.45,
+      "liquidity_sensitivity": 0.3,
+      "attention_shock_size": 0.25
+    },
+    "hype": {
+      "attention_score": 0.4,
+      "trading_score": 0.35,
+      "retail_proxy_score": 0.15,
+      "impact_score": 0.1
+    }
+  },
+  "confidence": {
+    "data_completeness": 0.35,
+    "freshness": 0.2,
+    "independent_sources": 0.2,
+    "history_length": 0.15,
+    "proxy_quality": 0.1
+  }
+}

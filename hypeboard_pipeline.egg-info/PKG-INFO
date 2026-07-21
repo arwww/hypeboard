@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: hypeboard-pipeline
+Version: 1.0.0
+Summary: Public signals of market attention and retail activity
+Requires-Python: >=3.12
+License-File: LICENSE
+Dynamic: license-file

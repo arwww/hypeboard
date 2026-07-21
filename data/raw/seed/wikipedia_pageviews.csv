@@ -1,0 +1,280 @@
+symbol,date,pageviews,article,source
+NVDA,2026-06-18,6001,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-19,5740,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-20,4815,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-21,4157,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-22,4780,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-23,5050,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-24,5076,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-25,4945,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-26,4497,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-27,3989,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-28,4116,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-29,4286,Nvidia,Wikimedia Pageviews API
+NVDA,2026-06-30,4335,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-01,4826,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-02,4141,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-03,3861,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-04,3510,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-05,3595,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-06,4442,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-07,4531,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-08,6030,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-09,4882,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-10,4545,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-11,4081,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-12,3741,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-13,4873,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-14,5140,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-15,6844,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-16,7269,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-17,6304,Nvidia,Wikimedia Pageviews API
+NVDA,2026-07-18,4863,Nvidia,Wikimedia Pageviews API
+TSLA,2026-06-18,4972,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-19,4199,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-20,3607,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-21,3443,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-22,3840,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-23,3817,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-24,3616,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-25,3455,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-26,3237,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-27,2774,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-28,2838,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-29,3371,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-06-30,3081,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-01,3520,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-02,3195,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-03,2976,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-04,2851,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-05,2792,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-06,3073,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-07,3086,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-08,2992,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-09,3435,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-10,3448,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-11,2781,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-12,2512,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-13,3183,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-14,2896,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-15,2773,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-16,3112,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-17,2645,"Tesla, Inc.",Wikimedia Pageviews API
+TSLA,2026-07-18,2584,"Tesla, Inc.",Wikimedia Pageviews API
+PLTR,2026-06-18,1969,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-19,1798,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-20,1504,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-21,1521,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-22,1350,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-23,1345,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-24,1345,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-25,1262,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-26,1054,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-27,973,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-28,1016,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-29,1193,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-06-30,1087,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-01,1368,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-02,1609,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-03,1902,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-04,1739,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-05,1315,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-06,1275,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-07,1218,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-08,1274,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-09,1248,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-10,1053,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-11,985,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-12,1064,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-13,1154,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-14,1125,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-15,1228,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-16,1276,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-17,1130,Palantir Technologies,Wikimedia Pageviews API
+PLTR,2026-07-18,1052,Palantir Technologies,Wikimedia Pageviews API
+GME,2026-06-18,554,GameStop,Wikimedia Pageviews API
+GME,2026-06-19,521,GameStop,Wikimedia Pageviews API
+GME,2026-06-20,490,GameStop,Wikimedia Pageviews API
+GME,2026-06-21,497,GameStop,Wikimedia Pageviews API
+GME,2026-06-22,598,GameStop,Wikimedia Pageviews API
+GME,2026-06-23,595,GameStop,Wikimedia Pageviews API
+GME,2026-06-24,989,GameStop,Wikimedia Pageviews API
+GME,2026-06-25,821,GameStop,Wikimedia Pageviews API
+GME,2026-06-26,648,GameStop,Wikimedia Pageviews API
+GME,2026-06-27,681,GameStop,Wikimedia Pageviews API
+GME,2026-06-28,572,GameStop,Wikimedia Pageviews API
+GME,2026-06-29,586,GameStop,Wikimedia Pageviews API
+GME,2026-06-30,546,GameStop,Wikimedia Pageviews API
+GME,2026-07-01,706,GameStop,Wikimedia Pageviews API
+GME,2026-07-02,800,GameStop,Wikimedia Pageviews API
+GME,2026-07-03,700,GameStop,Wikimedia Pageviews API
+GME,2026-07-04,540,GameStop,Wikimedia Pageviews API
+GME,2026-07-05,532,GameStop,Wikimedia Pageviews API
+GME,2026-07-06,562,GameStop,Wikimedia Pageviews API
+GME,2026-07-07,504,GameStop,Wikimedia Pageviews API
+GME,2026-07-08,565,GameStop,Wikimedia Pageviews API
+GME,2026-07-09,582,GameStop,Wikimedia Pageviews API
+GME,2026-07-10,621,GameStop,Wikimedia Pageviews API
+GME,2026-07-11,459,GameStop,Wikimedia Pageviews API
+GME,2026-07-12,514,GameStop,Wikimedia Pageviews API
+GME,2026-07-13,505,GameStop,Wikimedia Pageviews API
+GME,2026-07-14,558,GameStop,Wikimedia Pageviews API
+GME,2026-07-15,875,GameStop,Wikimedia Pageviews API
+GME,2026-07-16,668,GameStop,Wikimedia Pageviews API
+GME,2026-07-17,1030,GameStop,Wikimedia Pageviews API
+GME,2026-07-18,775,GameStop,Wikimedia Pageviews API
+AMC,2026-06-18,592,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-19,532,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-20,595,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-21,580,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-22,588,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-23,579,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-24,565,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-25,586,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-26,523,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-27,494,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-28,564,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-29,520,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-06-30,424,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-01,447,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-02,457,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-03,545,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-04,690,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-05,644,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-06,506,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-07,507,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-08,491,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-09,553,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-10,528,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-11,491,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-12,526,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-13,512,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-14,559,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-15,566,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-16,733,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-17,781,AMC Theatres,Wikimedia Pageviews API
+AMC,2026-07-18,965,AMC Theatres,Wikimedia Pageviews API
+HOOD,2026-06-18,790,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-19,514,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-20,402,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-21,618,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-22,795,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-23,826,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-24,850,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-25,938,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-26,678,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-27,428,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-28,485,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-29,616,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-06-30,613,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-01,793,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-02,938,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-03,577,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-04,473,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-05,538,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-06,941,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-07,921,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-08,948,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-09,798,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-10,721,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-11,569,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-12,632,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-13,659,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-14,698,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-15,622,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-16,792,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-17,639,Robinhood Markets,Wikimedia Pageviews API
+HOOD,2026-07-18,521,Robinhood Markets,Wikimedia Pageviews API
+AAPL,2026-06-18,5674,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-19,5300,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-20,4964,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-21,5321,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-22,6007,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-23,5882,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-24,5711,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-25,5615,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-26,4917,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-27,4481,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-28,4704,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-29,5912,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-06-30,5764,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-01,5758,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-02,5253,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-03,5491,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-04,5500,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-05,5460,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-06,5858,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-07,6509,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-08,6228,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-09,5941,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-10,6206,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-11,5351,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-12,5304,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-13,6351,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-14,6156,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-15,6081,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-16,6076,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-17,5840,Apple Inc.,Wikimedia Pageviews API
+AAPL,2026-07-18,5488,Apple Inc.,Wikimedia Pageviews API
+AMD,2026-06-18,142,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-19,139,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-20,126,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-21,110,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-22,135,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-23,118,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-24,125,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-25,128,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-26,113,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-27,133,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-28,111,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-29,113,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-06-30,123,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-01,116,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-02,133,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-03,116,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-04,85,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-05,96,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-06,110,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-07,123,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-08,163,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-09,124,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-10,128,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-11,102,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-12,92,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-13,123,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-14,126,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-15,119,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-16,123,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-17,119,Advanced Micro Devices,Wikimedia Pageviews API
+AMD,2026-07-18,93,Advanced Micro Devices,Wikimedia Pageviews API
+COIN,2026-06-18,501,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-19,428,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-20,354,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-21,377,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-22,496,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-23,516,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-24,584,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-25,642,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-26,595,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-27,399,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-28,383,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-29,496,Coinbase,Wikimedia Pageviews API
+COIN,2026-06-30,531,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-01,550,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-02,516,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-03,437,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-04,386,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-05,425,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-06,520,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-07,589,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-08,599,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-09,467,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-10,564,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-11,435,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-12,394,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-13,587,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-14,657,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-15,655,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-16,573,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-17,593,Coinbase,Wikimedia Pageviews API
+COIN,2026-07-18,503,Coinbase,Wikimedia Pageviews API

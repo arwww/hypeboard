@@ -1,0 +1,156 @@
+{
+  "$defs": {
+    "DataStatus": {
+      "enum": [
+        "fresh",
+        "cached",
+        "stale",
+        "partial",
+        "unavailable"
+      ],
+      "title": "DataStatus",
+      "type": "string"
+    },
+    "SourceRunStatus": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/DataStatus"
+        },
+        "last_observation_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Observation At"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "records": {
+          "default": 0,
+          "title": "Records",
+          "type": "integer"
+        },
+        "symbols_updated": {
+          "default": 0,
+          "title": "Symbols Updated",
+          "type": "integer"
+        },
+        "error": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error"
+        },
+        "delay_note": {
+          "title": "Delay Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "status",
+        "retrieved_at",
+        "delay_note"
+      ],
+      "title": "SourceRunStatus",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "last_successful_overall_update": {
+      "format": "date-time",
+      "title": "Last Successful Overall Update",
+      "type": "string"
+    },
+    "latest_market_date": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Latest Market Date"
+    },
+    "score_version": {
+      "title": "Score Version",
+      "type": "string"
+    },
+    "universe_size": {
+      "title": "Universe Size",
+      "type": "integer"
+    },
+    "successful_symbols": {
+      "title": "Successful Symbols",
+      "type": "integer"
+    },
+    "failed_symbols": {
+      "title": "Failed Symbols",
+      "type": "integer"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/SourceRunStatus"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "legal_notice": {
+      "title": "Legal Notice",
+      "type": "string"
+    }
+  },
+  "required": [
+    "generated_at",
+    "last_successful_overall_update",
+    "latest_market_date",
+    "score_version",
+    "universe_size",
+    "successful_symbols",
+    "failed_symbols",
+    "sources",
+    "warnings",
+    "legal_notice"
+  ],
+  "title": "MetaPayload",
+  "type": "object"
+}
