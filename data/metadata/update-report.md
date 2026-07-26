@@ -1,6 +1,6 @@
 # Hypeboard update report
 
-- Generated: 2026-07-25T22:33:52.402065+00:00
+- Generated: 2026-07-26T22:38:19.554256+00:00
 - Market date: 2026-07-24
 - Score version: 1.0.0
 - Universe: 30
@@ -11,7 +11,7 @@
 
 | Source | Status | Records | Symbols | Last observation | Note |
 |---|---:|---:|---:|---|---|
-| market_data | fresh | 4500 | 30 | 2026-07-24 | Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed. |
-| wikipedia | partial | 1440 | 12 | 2026-07-24 | Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay. |
-| finra_short_volume | fresh | 990 | 30 | 2026-07-24 | FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest. |
+| market_data | fresh | 4470 | 30 | 2026-07-24 | Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed. |
+| wikipedia | partial | 2160 | 18 | 2026-07-25 | Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay. |
+| finra_short_volume | fresh | 960 | 30 | 2026-07-24 | FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest. |
 | social | unavailable | 0 | 0 | — | No public social provider is active unless HYPEBOARD_SOCIAL_DATA_URL is configured. |
