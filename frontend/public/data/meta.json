@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T21:57:32.615477Z",
-  "last_successful_overall_update": "2026-08-19T21:57:32.615477Z",
-  "latest_market_date": "2026-08-19",
+  "generated_at": "2026-08-20T21:58:43.302197Z",
+  "last_successful_overall_update": "2026-08-20T21:58:43.302197Z",
+  "latest_market_date": "2026-08-20",
   "score_version": "1.0.0",
   "universe_size": 30,
   "successful_symbols": 30,
@@ -10,9 +10,9 @@
     {
       "source": "market_data",
       "status": "fresh",
-      "last_observation_at": "2026-08-19",
-      "retrieved_at": "2026-08-19T21:57:32.615477Z",
-      "records": 4560,
+      "last_observation_at": "2026-08-20",
+      "retrieved_at": "2026-08-20T21:58:43.302197Z",
+      "records": 4590,
       "symbols_updated": 30,
       "error": null,
       "delay_note": "Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed."
@@ -20,19 +20,19 @@
     {
       "source": "wikipedia",
       "status": "partial",
-      "last_observation_at": "2026-08-18",
-      "retrieved_at": "2026-08-19T21:57:32.615477Z",
+      "last_observation_at": "2026-08-19",
+      "retrieved_at": "2026-08-20T21:58:43.302197Z",
       "records": 2280,
       "symbols_updated": 19,
-      "error": "AMZN: wikipedia request failed: retryable response 429; COIN: wikipedia request failed: retryable response 429; MSTR: wikipedia request failed: retryable response 429; RIVN: wikipedia request failed: retryable response 429; SOFI: wikipedia request failed: retryable response 429; NFLX: wikipedia request failed: retryable response 429; INTC: wikipedia request failed: retryable response 429; BABA: wikipedia request failed: retryable response 429",
+      "error": "AMZN: wikipedia request failed: retryable response 429; COIN: wikipedia request failed: retryable response 429; MSTR: wikipedia request failed: retryable response 429; RIVN: wikipedia request failed: retryable response 429; RIOT: wikipedia request failed: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Riot_Platforms/daily/2026042200/2026081900; TSM: wikipedia request failed: retryable response 429; AVGO: wikipedia request failed: retryable response 429; SMCI: wikipedia request failed: retryable response 429",
       "delay_note": "Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay."
     },
     {
       "source": "finra_short_volume",
       "status": "fresh",
-      "last_observation_at": "2026-08-19",
-      "retrieved_at": "2026-08-19T21:57:32.615477Z",
-      "records": 990,
+      "last_observation_at": "2026-08-20",
+      "retrieved_at": "2026-08-20T21:58:43.302197Z",
+      "records": 1020,
       "symbols_updated": 30,
       "error": null,
       "delay_note": "FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest."
@@ -41,7 +41,7 @@
       "source": "social",
       "status": "unavailable",
       "last_observation_at": null,
-      "retrieved_at": "2026-08-19T21:57:32.615477Z",
+      "retrieved_at": "2026-08-20T21:58:43.302197Z",
       "records": 0,
       "symbols_updated": 0,
       "error": "no public social data endpoint configured",
