@@ -1,7 +1,7 @@
 {
   "symbol": "AMZN",
   "company_name": "Amazon",
-  "generated_at": "2026-08-27T01:02:50.987257Z",
+  "generated_at": "2026-08-28T05:36:21.457655Z",
   "score_version": "1.0.0",
   "points": [
     {
@@ -3204,8 +3204,8 @@
       "date": "2026-08-26",
       "price": 260.28,
       "daily_return_pct": -0.3,
-      "volume": 20669810,
-      "volume_ratio_30d": 0.58,
+      "volume": 21528400,
+      "volume_ratio_30d": 0.61,
       "wikipedia_pageviews": null,
       "wikipedia_change_pct": null,
       "short_volume_ratio": 0.2941,
@@ -3214,6 +3214,23 @@
       "retail_proxy_score": 21.5,
       "impact_score": 16.0,
       "hype_score": 14.8,
+      "confidence_score": null,
+      "data_status": "partial"
+    },
+    {
+      "date": "2026-08-27",
+      "price": 256.26,
+      "daily_return_pct": -1.54,
+      "volume": 35852900,
+      "volume_ratio_30d": 1.02,
+      "wikipedia_pageviews": null,
+      "wikipedia_change_pct": null,
+      "short_volume_ratio": 0.2825,
+      "attention_score": null,
+      "trading_score": 47.7,
+      "retail_proxy_score": 44.6,
+      "impact_score": 24.0,
+      "hype_score": 43.0,
       "confidence_score": 62.1,
       "data_status": "partial"
     }
@@ -3222,9 +3239,9 @@
     {
       "source": "market_data",
       "status": "fresh",
-      "last_observation_at": "2026-08-26",
-      "retrieved_at": "2026-08-27T01:02:50.987257Z",
-      "records": 4560,
+      "last_observation_at": "2026-08-27",
+      "retrieved_at": "2026-08-28T05:36:21.457655Z",
+      "records": 4590,
       "symbols_updated": 30,
       "error": null,
       "delay_note": "Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed."
@@ -3232,19 +3249,19 @@
     {
       "source": "wikipedia",
       "status": "partial",
-      "last_observation_at": "2026-08-25",
-      "retrieved_at": "2026-08-27T01:02:50.987257Z",
-      "records": 2372,
-      "symbols_updated": 20,
-      "error": "AMZN: wikipedia request failed: retryable response 429; LCID: wikipedia request failed: retryable response 429; MARA: wikipedia request failed: retryable response 429; RIOT: wikipedia request failed: retryable response 429; TSM: wikipedia request failed: retryable response 429; AVGO: wikipedia request failed: retryable response 429; SMCI: wikipedia request failed: retryable response 429; PYPL: wikipedia request failed: retryable response 429",
+      "last_observation_at": "2026-08-27",
+      "retrieved_at": "2026-08-28T05:36:21.457655Z",
+      "records": 2280,
+      "symbols_updated": 19,
+      "error": "AMZN: wikipedia request failed: retryable response 429; COIN: wikipedia request failed: retryable response 429; MSTR: wikipedia request failed: retryable response 429; RIVN: wikipedia request failed: retryable response 429; SOFI: wikipedia request failed: retryable response 429; NFLX: wikipedia request failed: retryable response 429; INTC: wikipedia request failed: retryable response 429; BABA: wikipedia request failed: retryable response 429",
       "delay_note": "Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay."
     },
     {
       "source": "finra_short_volume",
       "status": "fresh",
-      "last_observation_at": "2026-08-26",
-      "retrieved_at": "2026-08-27T01:02:50.987257Z",
-      "records": 990,
+      "last_observation_at": "2026-08-27",
+      "retrieved_at": "2026-08-28T05:36:21.457655Z",
+      "records": 1020,
       "symbols_updated": 30,
       "error": null,
       "delay_note": "FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest."
@@ -3253,7 +3270,7 @@
       "source": "social",
       "status": "unavailable",
       "last_observation_at": null,
-      "retrieved_at": "2026-08-27T01:02:50.987257Z",
+      "retrieved_at": "2026-08-28T05:36:21.457655Z",
       "records": 0,
       "symbols_updated": 0,
       "error": "no public social data endpoint configured",
