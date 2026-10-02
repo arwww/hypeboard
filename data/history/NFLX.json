@@ -1,7 +1,7 @@
 {
   "symbol": "NFLX",
   "company_name": "Netflix",
-  "generated_at": "2026-10-01T00:49:17.734733Z",
+  "generated_at": "2026-10-02T01:04:19.219074Z",
   "score_version": "1.0.0",
   "points": [
     {
@@ -3174,13 +3174,13 @@
       "volume_ratio_30d": 0.82,
       "wikipedia_pageviews": null,
       "wikipedia_change_pct": null,
-      "short_volume_ratio": 0.2356,
+      "short_volume_ratio": 0.284,
       "attention_score": null,
       "trading_score": 34.7,
-      "retail_proxy_score": 21.5,
+      "retail_proxy_score": 24.0,
       "impact_score": 36.0,
-      "hype_score": 31.6,
-      "confidence_score": 59.2,
+      "hype_score": 32.2,
+      "confidence_score": 58.3,
       "data_status": "cached"
     },
     {
@@ -3267,6 +3267,23 @@
       "hype_score": null,
       "confidence_score": null,
       "data_status": "partial"
+    },
+    {
+      "date": "2026-10-01",
+      "price": null,
+      "daily_return_pct": null,
+      "volume": null,
+      "volume_ratio_30d": null,
+      "wikipedia_pageviews": null,
+      "wikipedia_change_pct": null,
+      "short_volume_ratio": 0.284,
+      "attention_score": null,
+      "trading_score": null,
+      "retail_proxy_score": null,
+      "impact_score": null,
+      "hype_score": null,
+      "confidence_score": null,
+      "data_status": "partial"
     }
   ],
   "sources": [
@@ -3274,7 +3291,7 @@
       "source": "market_data",
       "status": "cached",
       "last_observation_at": "2026-09-25",
-      "retrieved_at": "2026-10-01T00:49:17.734733Z",
+      "retrieved_at": "2026-10-02T01:04:19.219074Z",
       "records": 4560,
       "symbols_updated": 30,
       "error": "yfinance returned no market data",
@@ -3283,19 +3300,19 @@
     {
       "source": "wikipedia",
       "status": "partial",
-      "last_observation_at": "2026-09-29",
-      "retrieved_at": "2026-10-01T00:49:17.734733Z",
-      "records": 2142,
-      "symbols_updated": 18,
+      "last_observation_at": "2026-09-30",
+      "retrieved_at": "2026-10-02T01:04:19.219074Z",
+      "records": 2023,
+      "symbols_updated": 17,
       "error": "AMZN: wikipedia request failed: retryable response 429; COIN: wikipedia request failed: retryable response 429; MSTR: wikipedia request failed: retryable response 429; RIVN: wikipedia request failed: retryable response 429; SOFI: wikipedia request failed: retryable response 429; NFLX: wikipedia request failed: retryable response 429; INTC: wikipedia request failed: retryable response 429; BABA: wikipedia request failed: retryable response 429",
       "delay_note": "Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay."
     },
     {
       "source": "finra_short_volume",
       "status": "fresh",
-      "last_observation_at": "2026-09-30",
-      "retrieved_at": "2026-10-01T00:49:17.734733Z",
-      "records": 960,
+      "last_observation_at": "2026-10-01",
+      "retrieved_at": "2026-10-02T01:04:19.219074Z",
+      "records": 990,
       "symbols_updated": 30,
       "error": null,
       "delay_note": "FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest."
@@ -3304,7 +3321,7 @@
       "source": "social",
       "status": "unavailable",
       "last_observation_at": null,
-      "retrieved_at": "2026-10-01T00:49:17.734733Z",
+      "retrieved_at": "2026-10-02T01:04:19.219074Z",
       "records": 0,
       "symbols_updated": 0,
       "error": "no public social data endpoint configured",
