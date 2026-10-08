@@ -1,7 +1,7 @@
 {
   "symbol": "RIOT",
   "company_name": "Riot Platforms",
-  "generated_at": "2026-10-07T01:00:44.319429Z",
+  "generated_at": "2026-10-08T01:17:10.121419Z",
   "score_version": "1.0.0",
   "points": [
     {
@@ -2426,14 +2426,14 @@
       "volume_ratio_30d": null,
       "wikipedia_pageviews": null,
       "wikipedia_change_pct": null,
-      "short_volume_ratio": 0.3519,
+      "short_volume_ratio": null,
       "attention_score": null,
       "trading_score": null,
       "retail_proxy_score": null,
       "impact_score": null,
       "hype_score": null,
       "confidence_score": null,
-      "data_status": "partial"
+      "data_status": "unavailable"
     },
     {
       "date": "2026-08-22",
@@ -3208,7 +3208,7 @@
       "volume_ratio_30d": null,
       "wikipedia_pageviews": null,
       "wikipedia_change_pct": null,
-      "short_volume_ratio": 0.6279,
+      "short_volume_ratio": 0.5846,
       "attention_score": null,
       "trading_score": null,
       "retail_proxy_score": null,
@@ -3216,34 +3216,51 @@
       "hype_score": null,
       "confidence_score": 26.2,
       "data_status": "unavailable"
+    },
+    {
+      "date": "2026-10-07",
+      "price": null,
+      "daily_return_pct": null,
+      "volume": null,
+      "volume_ratio_30d": null,
+      "wikipedia_pageviews": null,
+      "wikipedia_change_pct": null,
+      "short_volume_ratio": 0.5846,
+      "attention_score": null,
+      "trading_score": null,
+      "retail_proxy_score": null,
+      "impact_score": null,
+      "hype_score": null,
+      "confidence_score": null,
+      "data_status": "partial"
     }
   ],
   "sources": [
     {
       "source": "market_data",
-      "status": "partial",
+      "status": "cached",
       "last_observation_at": "2026-10-06",
-      "retrieved_at": "2026-10-07T01:00:44.319429Z",
+      "retrieved_at": "2026-10-08T01:17:10.121419Z",
       "records": 1976,
       "symbols_updated": 13,
-      "error": "PLTR: yfinance returned no valid OHLCV rows; AMC: yfinance returned no valid OHLCV rows; HOOD: yfinance returned no valid OHLCV rows; META: yfinance returned no valid OHLCV rows; COIN: yfinance returned no valid OHLCV rows; RIVN: yfinance returned no valid OHLCV rows; SOFI: yfinance returned no valid OHLCV rows; BABA: yfinance returned no valid OHLCV rows",
+      "error": "yfinance returned no market data",
       "delay_note": "Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed."
     },
     {
       "source": "wikipedia",
       "status": "partial",
-      "last_observation_at": "2026-10-05",
-      "retrieved_at": "2026-10-07T01:00:44.319429Z",
-      "records": 2377,
-      "symbols_updated": 20,
-      "error": "DKNG: wikipedia request failed: retryable response 429; LCID: wikipedia request failed: retryable response 429; MARA: wikipedia request failed: retryable response 429; RIOT: wikipedia request failed: retryable response 429; TSM: wikipedia request failed: retryable response 429; AVGO: wikipedia request failed: retryable response 429; SMCI: wikipedia request failed: retryable response 429; PYPL: wikipedia request failed: retryable response 429",
+      "last_observation_at": "2026-10-06",
+      "retrieved_at": "2026-10-08T01:17:10.121419Z",
+      "records": 1904,
+      "symbols_updated": 16,
+      "error": "AMZN: wikipedia request failed: retryable response 429; COIN: wikipedia request failed: retryable response 429; MSTR: wikipedia request failed: retryable response 429; RIVN: wikipedia request failed: retryable response 429; SOFI: wikipedia request failed: retryable response 429; NFLX: wikipedia request failed: retryable response 429; INTC: wikipedia request failed: retryable response 429; BABA: wikipedia request failed: retryable response 429",
       "delay_note": "Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay."
     },
     {
       "source": "finra_short_volume",
       "status": "fresh",
-      "last_observation_at": "2026-10-06",
-      "retrieved_at": "2026-10-07T01:00:44.319429Z",
+      "last_observation_at": "2026-10-07",
+      "retrieved_at": "2026-10-08T01:17:10.121419Z",
       "records": 960,
       "symbols_updated": 30,
       "error": null,
@@ -3253,7 +3270,7 @@
       "source": "social",
       "status": "unavailable",
       "last_observation_at": null,
-      "retrieved_at": "2026-10-07T01:00:44.319429Z",
+      "retrieved_at": "2026-10-08T01:17:10.121419Z",
       "records": 0,
       "symbols_updated": 0,
       "error": "no public social data endpoint configured",
