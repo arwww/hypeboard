@@ -1,7 +1,7 @@
 # Hypeboard update report
 
-- Generated: 2026-11-18T03:51:05.639214+00:00
-- Market date: 2026-11-17
+- Generated: 2026-11-19T03:50:02.929043+00:00
+- Market date: 2026-11-18
 - Score version: 1.0.0
 - Universe: 30
 - Symbols with a Hype Score: 30
@@ -11,7 +11,11 @@
 
 | Source | Status | Records | Symbols | Last observation | Note |
 |---|---:|---:|---:|---|---|
-| market_data | fresh | 4590 | 30 | 2026-11-17 | Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed. |
-| wikipedia | partial | 1911 | 16 | 2026-11-17 | Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay. |
-| finra_short_volume | fresh | 990 | 30 | 2026-11-17 | FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest. |
+| market_data | fresh | 4620 | 30 | 2026-11-18 | Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed. |
+| wikipedia | partial | 1675 | 14 | 2026-11-18 | Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay. |
+| finra_short_volume | fresh | 990 | 30 | 2026-11-18 | FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest. |
 | social | unavailable | 0 | 0 | — | No public social provider is active unless HYPEBOARD_SOCIAL_DATA_URL is configured. |
+
+## Validation warnings
+
+- Extreme daily rank changes detected: RIOT
