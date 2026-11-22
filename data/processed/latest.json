@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:27:11.550893Z",
+  "generated_at": "2026-11-22T02:38:06.272708Z",
   "market_date": "2026-11-20",
   "score_version": "1.0.0",
   "symbols": [
@@ -24,13 +24,44 @@
       "data_status": "fresh",
       "drivers": [
         "Das Handelsvolumen liegt 7.8 robuste Standardabweichungen über dem 30-Tage-Niveau.",
-        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 327 % gestiegen.",
+        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 228 % gestiegen.",
         "Die Aktie bewegte sich am letzten Handelstag um -14.0 %."
       ],
       "score_coverage": 1.0,
       "source_dates": {
         "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
+        "wikipedia": "2026-11-20",
+        "finra_short_volume": "2026-11-20",
+        "social": null
+      }
+    },
+    {
+      "symbol": "AVGO",
+      "company_name": "Broadcom",
+      "exchange": "NASDAQ",
+      "sector": "Semiconductors",
+      "price": 304.41,
+      "daily_return_pct": -12.19,
+      "volume": 59562800,
+      "volume_ratio_30d": 2.31,
+      "attention_score": 73.3,
+      "trading_score": 87.5,
+      "retail_proxy_score": 84.2,
+      "impact_score": 61.8,
+      "hype_score": 78.8,
+      "hype_score_change": 22.1,
+      "confidence_score": 90.5,
+      "rank": 2,
+      "rank_change": 12,
+      "data_status": "fresh",
+      "drivers": [
+        "Das Handelsvolumen liegt 3.3 robuste Standardabweichungen über dem 30-Tage-Niveau.",
+        "Die Aktie bewegte sich am letzten Handelstag um -12.2 %."
+      ],
+      "score_coverage": 1.0,
+      "source_dates": {
+        "market": "2026-11-20",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -51,8 +82,8 @@
       "hype_score": 74.9,
       "hype_score_change": 13.6,
       "confidence_score": 62.1,
-      "rank": 2,
-      "rank_change": 8,
+      "rank": 3,
+      "rank_change": 7,
       "data_status": "partial",
       "drivers": [
         "Das Handelsvolumen liegt 4.6 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -63,37 +94,6 @@
       "source_dates": {
         "market": "2026-11-20",
         "wikipedia": null,
-        "finra_short_volume": "2026-11-20",
-        "social": null
-      }
-    },
-    {
-      "symbol": "AVGO",
-      "company_name": "Broadcom",
-      "exchange": "NASDAQ",
-      "sector": "Semiconductors",
-      "price": 304.41,
-      "daily_return_pct": -12.19,
-      "volume": 59562800,
-      "volume_ratio_30d": 2.31,
-      "attention_score": 60.0,
-      "trading_score": 87.5,
-      "retail_proxy_score": 84.2,
-      "impact_score": 58.5,
-      "hype_score": 73.1,
-      "hype_score_change": 16.4,
-      "confidence_score": 90.5,
-      "rank": 3,
-      "rank_change": 11,
-      "data_status": "fresh",
-      "drivers": [
-        "Das Handelsvolumen liegt 3.3 robuste Standardabweichungen über dem 30-Tage-Niveau.",
-        "Die Aktie bewegte sich am letzten Handelstag um -12.2 %."
-      ],
-      "score_coverage": 1.0,
-      "source_dates": {
-        "market": "2026-11-20",
-        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -131,38 +131,6 @@
       }
     },
     {
-      "symbol": "AMD",
-      "company_name": "Advanced Micro Devices",
-      "exchange": "NASDAQ",
-      "sector": "Semiconductors",
-      "price": 424.39,
-      "daily_return_pct": -13.25,
-      "volume": 69989800,
-      "volume_ratio_30d": 2.3,
-      "attention_score": 80.0,
-      "trading_score": 56.8,
-      "retail_proxy_score": 50.6,
-      "impact_score": 61.0,
-      "hype_score": 65.6,
-      "hype_score_change": -13.7,
-      "confidence_score": 90.5,
-      "rank": 5,
-      "rank_change": -3,
-      "data_status": "fresh",
-      "drivers": [
-        "Das Handelsvolumen liegt 2.0 robuste Standardabweichungen über dem 30-Tage-Niveau.",
-        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 30 % gestiegen.",
-        "Die Aktie bewegte sich am letzten Handelstag um -13.2 %."
-      ],
-      "score_coverage": 1.0,
-      "source_dates": {
-        "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
-        "finra_short_volume": "2026-11-20",
-        "social": null
-      }
-    },
-    {
       "symbol": "MARA",
       "company_name": "MARA Holdings",
       "exchange": "NASDAQ",
@@ -178,8 +146,8 @@
       "hype_score": 64.9,
       "hype_score_change": 11.0,
       "confidence_score": 62.1,
-      "rank": 6,
-      "rank_change": 9,
+      "rank": 5,
+      "rank_change": 10,
       "data_status": "partial",
       "drivers": [
         "Die Aktie bewegte sich am letzten Handelstag um -18.6 %.",
@@ -202,25 +170,24 @@
       "daily_return_pct": -6.63,
       "volume": 36556700,
       "volume_ratio_30d": 1.71,
-      "attention_score": 86.7,
+      "attention_score": 80.0,
       "trading_score": 52.8,
       "retail_proxy_score": 39.6,
-      "impact_score": 49.2,
-      "hype_score": 64.0,
-      "hype_score_change": 11.2,
+      "impact_score": 47.5,
+      "hype_score": 61.2,
+      "hype_score_change": 8.4,
       "confidence_score": 90.5,
-      "rank": 7,
-      "rank_change": 9,
+      "rank": 6,
+      "rank_change": 10,
       "data_status": "fresh",
       "drivers": [
         "Das Handelsvolumen liegt 2.8 robuste Standardabweichungen über dem 30-Tage-Niveau.",
-        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 44 % gestiegen.",
         "Die Aktie bewegte sich am letzten Handelstag um -6.6 %."
       ],
       "score_coverage": 1.0,
       "source_dates": {
         "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -241,8 +208,8 @@
       "hype_score": 61.1,
       "hype_score_change": -6.7,
       "confidence_score": 62.1,
-      "rank": 8,
-      "rank_change": -1,
+      "rank": 7,
+      "rank_change": 0,
       "data_status": "partial",
       "drivers": [
         "Das Handelsvolumen liegt 3.8 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -252,6 +219,67 @@
       "source_dates": {
         "market": "2026-11-20",
         "wikipedia": null,
+        "finra_short_volume": "2026-11-20",
+        "social": null
+      }
+    },
+    {
+      "symbol": "UBER",
+      "company_name": "Uber Technologies",
+      "exchange": "NYSE",
+      "sector": "Mobility",
+      "price": 63.47,
+      "daily_return_pct": -3.25,
+      "volume": 30060100,
+      "volume_ratio_30d": 1.8,
+      "attention_score": 60.0,
+      "trading_score": 70.0,
+      "retail_proxy_score": 52.1,
+      "impact_score": 38.0,
+      "hype_score": 60.1,
+      "hype_score_change": -8.3,
+      "confidence_score": 90.5,
+      "rank": 8,
+      "rank_change": -3,
+      "data_status": "fresh",
+      "drivers": [
+        "Das Handelsvolumen liegt 3.5 robuste Standardabweichungen über dem 30-Tage-Niveau."
+      ],
+      "score_coverage": 1.0,
+      "source_dates": {
+        "market": "2026-11-20",
+        "wikipedia": "2026-11-20",
+        "finra_short_volume": "2026-11-20",
+        "social": null
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "company_name": "Super Micro Computer",
+      "exchange": "NASDAQ",
+      "sector": "Technology Hardware",
+      "price": 21.65,
+      "daily_return_pct": -9.19,
+      "volume": 48309700,
+      "volume_ratio_30d": 1.27,
+      "attention_score": 86.7,
+      "trading_score": 30.0,
+      "retail_proxy_score": 38.8,
+      "impact_score": 73.7,
+      "hype_score": 58.3,
+      "hype_score_change": 9.6,
+      "confidence_score": 90.5,
+      "rank": 9,
+      "rank_change": 9,
+      "data_status": "fresh",
+      "drivers": [
+        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 62 % gestiegen.",
+        "Die Aktie bewegte sich am letzten Handelstag um -9.2 %."
+      ],
+      "score_coverage": 1.0,
+      "source_dates": {
+        "market": "2026-11-20",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -272,8 +300,8 @@
       "hype_score": 58.3,
       "hype_score_change": 24.0,
       "confidence_score": 62.1,
-      "rank": 9,
-      "rank_change": 16,
+      "rank": 10,
+      "rank_change": 15,
       "data_status": "partial",
       "drivers": [
         "Das Handelsvolumen liegt 3.1 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -304,8 +332,8 @@
       "hype_score": 57.8,
       "hype_score_change": -1.0,
       "confidence_score": 62.1,
-      "rank": 10,
-      "rank_change": 2,
+      "rank": 11,
+      "rank_change": 1,
       "data_status": "partial",
       "drivers": [
         "Die Aktie bewegte sich am letzten Handelstag um -11.1 %.",
@@ -335,41 +363,11 @@
       "hype_score": 57.7,
       "hype_score_change": 9.3,
       "confidence_score": 90.5,
-      "rank": 11,
-      "rank_change": 8,
+      "rank": 12,
+      "rank_change": 7,
       "data_status": "fresh",
       "drivers": [
         "Das Handelsvolumen liegt 3.1 robuste Standardabweichungen über dem 30-Tage-Niveau."
-      ],
-      "score_coverage": 1.0,
-      "source_dates": {
-        "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
-        "finra_short_volume": "2026-11-20",
-        "social": null
-      }
-    },
-    {
-      "symbol": "UBER",
-      "company_name": "Uber Technologies",
-      "exchange": "NYSE",
-      "sector": "Mobility",
-      "price": 63.47,
-      "daily_return_pct": -3.25,
-      "volume": 30060100,
-      "volume_ratio_30d": 1.8,
-      "attention_score": 53.3,
-      "trading_score": 70.0,
-      "retail_proxy_score": 52.1,
-      "impact_score": 36.3,
-      "hype_score": 57.3,
-      "hype_score_change": -11.1,
-      "confidence_score": 90.5,
-      "rank": 12,
-      "rank_change": -7,
-      "data_status": "fresh",
-      "drivers": [
-        "Das Handelsvolumen liegt 3.5 robuste Standardabweichungen über dem 30-Tage-Niveau."
       ],
       "score_coverage": 1.0,
       "source_dates": {
@@ -444,32 +442,62 @@
       }
     },
     {
-      "symbol": "SMCI",
-      "company_name": "Super Micro Computer",
+      "symbol": "AMD",
+      "company_name": "Advanced Micro Devices",
       "exchange": "NASDAQ",
-      "sector": "Technology Hardware",
-      "price": 21.65,
-      "daily_return_pct": -9.19,
-      "volume": 48309700,
-      "volume_ratio_30d": 1.27,
-      "attention_score": 73.3,
-      "trading_score": 30.0,
-      "retail_proxy_score": 38.8,
-      "impact_score": 70.3,
-      "hype_score": 52.7,
-      "hype_score_change": 4.0,
+      "sector": "Semiconductors",
+      "price": 424.39,
+      "daily_return_pct": -13.25,
+      "volume": 69989800,
+      "volume_ratio_30d": 2.3,
+      "attention_score": 53.3,
+      "trading_score": 56.8,
+      "retail_proxy_score": 50.6,
+      "impact_score": 54.3,
+      "hype_score": 54.3,
+      "hype_score_change": -25.0,
       "confidence_score": 90.5,
       "rank": 15,
-      "rank_change": 3,
+      "rank_change": -13,
       "data_status": "fresh",
       "drivers": [
-        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 65 % gestiegen.",
-        "Die Aktie bewegte sich am letzten Handelstag um -9.2 %."
+        "Das Handelsvolumen liegt 2.0 robuste Standardabweichungen über dem 30-Tage-Niveau.",
+        "Die Aktie bewegte sich am letzten Handelstag um -13.2 %."
       ],
       "score_coverage": 1.0,
       "source_dates": {
         "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
+        "wikipedia": "2026-11-20",
+        "finra_short_volume": "2026-11-20",
+        "social": null
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "company_name": "Apple",
+      "exchange": "NASDAQ",
+      "sector": "Technology Hardware",
+      "price": 342.56,
+      "daily_return_pct": -1.9,
+      "volume": 80464200,
+      "volume_ratio_30d": 2.01,
+      "attention_score": 46.7,
+      "trading_score": 65.7,
+      "retail_proxy_score": 53.5,
+      "impact_score": 17.7,
+      "hype_score": 51.4,
+      "hype_score_change": 24.9,
+      "confidence_score": 90.5,
+      "rank": 16,
+      "rank_change": 13,
+      "data_status": "fresh",
+      "drivers": [
+        "Das Handelsvolumen liegt 5.0 robuste Standardabweichungen über dem 30-Tage-Niveau."
+      ],
+      "score_coverage": 1.0,
+      "source_dates": {
+        "market": "2026-11-20",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -490,8 +518,8 @@
       "hype_score": 51.0,
       "hype_score_change": -13.3,
       "confidence_score": 62.1,
-      "rank": 16,
-      "rank_change": -7,
+      "rank": 17,
+      "rank_change": -8,
       "data_status": "partial",
       "drivers": [
         "Das Handelsvolumen liegt 2.6 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -522,8 +550,8 @@
       "hype_score": 49.1,
       "hype_score_change": 10.3,
       "confidence_score": 62.1,
-      "rank": 17,
-      "rank_change": 6,
+      "rank": 18,
+      "rank_change": 5,
       "data_status": "partial",
       "drivers": [
         "Das Handelsvolumen liegt 2.4 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -534,36 +562,6 @@
       "source_dates": {
         "market": "2026-11-20",
         "wikipedia": null,
-        "finra_short_volume": "2026-11-20",
-        "social": null
-      }
-    },
-    {
-      "symbol": "AAPL",
-      "company_name": "Apple",
-      "exchange": "NASDAQ",
-      "sector": "Technology Hardware",
-      "price": 342.56,
-      "daily_return_pct": -1.9,
-      "volume": 80464200,
-      "volume_ratio_30d": 2.01,
-      "attention_score": 40.0,
-      "trading_score": 65.7,
-      "retail_proxy_score": 53.5,
-      "impact_score": 16.0,
-      "hype_score": 48.6,
-      "hype_score_change": 22.1,
-      "confidence_score": 90.5,
-      "rank": 18,
-      "rank_change": 11,
-      "data_status": "fresh",
-      "drivers": [
-        "Das Handelsvolumen liegt 5.0 robuste Standardabweichungen über dem 30-Tage-Niveau."
-      ],
-      "score_coverage": 1.0,
-      "source_dates": {
-        "market": "2026-11-20",
-        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -632,6 +630,37 @@
       }
     },
     {
+      "symbol": "PYPL",
+      "company_name": "PayPal",
+      "exchange": "NASDAQ",
+      "sector": "Financial Technology",
+      "price": 53.29,
+      "daily_return_pct": -5.46,
+      "volume": 16931000,
+      "volume_ratio_30d": 1.72,
+      "attention_score": 33.3,
+      "trading_score": 58.7,
+      "retail_proxy_score": 62.9,
+      "impact_score": 42.8,
+      "hype_score": 47.6,
+      "hype_score_change": 14.4,
+      "confidence_score": 90.5,
+      "rank": 21,
+      "rank_change": 6,
+      "data_status": "fresh",
+      "drivers": [
+        "Das Handelsvolumen liegt 2.9 robuste Standardabweichungen über dem 30-Tage-Niveau.",
+        "Die Aktie bewegte sich am letzten Handelstag um -5.5 %."
+      ],
+      "score_coverage": 1.0,
+      "source_dates": {
+        "market": "2026-11-20",
+        "wikipedia": "2026-11-20",
+        "finra_short_volume": "2026-11-20",
+        "social": null
+      }
+    },
+    {
       "symbol": "GME",
       "company_name": "GameStop",
       "exchange": "NYSE",
@@ -647,42 +676,11 @@
       "hype_score": 47.3,
       "hype_score_change": -26.2,
       "confidence_score": 90.5,
-      "rank": 21,
-      "rank_change": -18,
-      "data_status": "fresh",
-      "drivers": [
-        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 34 % gestiegen."
-      ],
-      "score_coverage": 1.0,
-      "source_dates": {
-        "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
-        "finra_short_volume": "2026-11-20",
-        "social": null
-      }
-    },
-    {
-      "symbol": "PYPL",
-      "company_name": "PayPal",
-      "exchange": "NASDAQ",
-      "sector": "Financial Technology",
-      "price": 53.29,
-      "daily_return_pct": -5.46,
-      "volume": 16931000,
-      "volume_ratio_30d": 1.72,
-      "attention_score": 26.7,
-      "trading_score": 58.7,
-      "retail_proxy_score": 62.9,
-      "impact_score": 41.2,
-      "hype_score": 44.8,
-      "hype_score_change": 11.6,
-      "confidence_score": 90.5,
       "rank": 22,
-      "rank_change": 5,
+      "rank_change": -19,
       "data_status": "fresh",
       "drivers": [
-        "Das Handelsvolumen liegt 2.9 robuste Standardabweichungen über dem 30-Tage-Niveau.",
-        "Die Aktie bewegte sich am letzten Handelstag um -5.5 %."
+        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 28 % gestiegen."
       ],
       "score_coverage": 1.0,
       "source_dates": {
@@ -701,25 +699,25 @@
       "daily_return_pct": -9.44,
       "volume": 28127700,
       "volume_ratio_30d": 1.67,
-      "attention_score": 33.3,
+      "attention_score": 40.0,
       "trading_score": 51.8,
       "retail_proxy_score": 37.7,
-      "impact_score": 58.8,
-      "hype_score": 43.0,
-      "hype_score_change": 8.7,
+      "impact_score": 60.5,
+      "hype_score": 45.8,
+      "hype_score_change": 11.5,
       "confidence_score": 90.5,
       "rank": 23,
       "rank_change": 3,
       "data_status": "fresh",
       "drivers": [
         "Das Handelsvolumen liegt 2.5 robuste Standardabweichungen über dem 30-Tage-Niveau.",
-        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 42 % gesunken.",
+        "Wikipedia-Aufrufe sind gegenüber dem vorherigen 30-Tage-Median um 46 % gesunken.",
         "Die Aktie bewegte sich am letzten Handelstag um -9.4 %."
       ],
       "score_coverage": 1.0,
       "source_dates": {
         "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -756,36 +754,6 @@
       }
     },
     {
-      "symbol": "META",
-      "company_name": "Meta Platforms",
-      "exchange": "NASDAQ",
-      "sector": "Interactive Media",
-      "price": 560.84,
-      "daily_return_pct": -5.93,
-      "volume": 25589800,
-      "volume_ratio_30d": 1.51,
-      "attention_score": 46.7,
-      "trading_score": 36.0,
-      "retail_proxy_score": 21.7,
-      "impact_score": 31.7,
-      "hype_score": 37.7,
-      "hype_score_change": 0.6,
-      "confidence_score": 90.5,
-      "rank": 25,
-      "rank_change": -1,
-      "data_status": "fresh",
-      "drivers": [
-        "Die Aktie bewegte sich am letzten Handelstag um -5.9 %."
-      ],
-      "score_coverage": 1.0,
-      "source_dates": {
-        "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
-        "finra_short_volume": "2026-11-20",
-        "social": null
-      }
-    },
-    {
       "symbol": "AMC",
       "company_name": "AMC Entertainment",
       "exchange": "NYSE",
@@ -801,8 +769,8 @@
       "hype_score": 35.5,
       "hype_score_change": -8.2,
       "confidence_score": 90.5,
-      "rank": 26,
-      "rank_change": -4,
+      "rank": 25,
+      "rank_change": -3,
       "data_status": "fresh",
       "drivers": [
         "Das Handelsvolumen liegt 1.5 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -812,7 +780,7 @@
       "score_coverage": 1.0,
       "source_dates": {
         "market": "2026-11-20",
-        "wikipedia": "2026-11-19",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
@@ -833,8 +801,8 @@
       "hype_score": 34.9,
       "hype_score_change": -23.0,
       "confidence_score": 62.1,
-      "rank": 27,
-      "rank_change": -14,
+      "rank": 26,
+      "rank_change": -13,
       "data_status": "partial",
       "drivers": [
         "Das Handelsvolumen liegt 2.7 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -864,8 +832,8 @@
       "hype_score": 34.0,
       "hype_score_change": -13.4,
       "confidence_score": 90.5,
-      "rank": 28,
-      "rank_change": -8,
+      "rank": 27,
+      "rank_change": -7,
       "data_status": "fresh",
       "drivers": [
         "Das Handelsvolumen liegt 2.7 robuste Standardabweichungen über dem 30-Tage-Niveau.",
@@ -895,8 +863,8 @@
       "hype_score": 30.0,
       "hype_score_change": -42.5,
       "confidence_score": 62.1,
-      "rank": 29,
-      "rank_change": -25,
+      "rank": 28,
+      "rank_change": -24,
       "data_status": "partial",
       "drivers": [
         "Die Aktie bewegte sich am letzten Handelstag um -6.1 %.",
@@ -906,6 +874,36 @@
       "source_dates": {
         "market": "2026-11-20",
         "wikipedia": null,
+        "finra_short_volume": "2026-11-20",
+        "social": null
+      }
+    },
+    {
+      "symbol": "META",
+      "company_name": "Meta Platforms",
+      "exchange": "NASDAQ",
+      "sector": "Interactive Media",
+      "price": 560.84,
+      "daily_return_pct": -5.93,
+      "volume": 25589800,
+      "volume_ratio_30d": 1.51,
+      "attention_score": 26.7,
+      "trading_score": 36.0,
+      "retail_proxy_score": 21.7,
+      "impact_score": 26.7,
+      "hype_score": 29.2,
+      "hype_score_change": -7.9,
+      "confidence_score": 90.5,
+      "rank": 29,
+      "rank_change": -5,
+      "data_status": "fresh",
+      "drivers": [
+        "Die Aktie bewegte sich am letzten Handelstag um -5.9 %."
+      ],
+      "score_coverage": 1.0,
+      "source_dates": {
+        "market": "2026-11-20",
+        "wikipedia": "2026-11-20",
         "finra_short_volume": "2026-11-20",
         "social": null
       }
