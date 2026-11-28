@@ -1,7 +1,7 @@
 # Hypeboard update report
 
-- Generated: 2026-11-27T04:31:17.541301+00:00
-- Market date: 2026-11-25
+- Generated: 2026-11-28T04:13:29.532740+00:00
+- Market date: 2026-11-27
 - Score version: 1.0.0
 - Universe: 30
 - Symbols with a Hype Score: 30
@@ -11,7 +11,11 @@
 
 | Source | Status | Records | Symbols | Last observation | Note |
 |---|---:|---:|---:|---|---|
-| market_data | partial | 4437 | 29 | 2026-11-25 | Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed. |
-| wikipedia | partial | 2040 | 17 | 2026-11-26 | Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay. |
-| finra_short_volume | fresh | 990 | 30 | 2026-11-25 | FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest. |
+| market_data | fresh | 4590 | 30 | 2026-11-27 | Daily end-of-day market data retrieved through yfinance. Availability and adjustments can be delayed. |
+| wikipedia | partial | 2280 | 19 | 2026-11-27 | Daily Wikimedia Pageviews; the newest complete UTC day can arrive with a short delay. |
+| finra_short_volume | fresh | 1020 | 30 | 2026-11-27 | FINRA consolidated TRF/ADF daily short-sale volume, normally posted by 18:00 ET. It is off-exchange reported volume and is not short interest. |
 | social | unavailable | 0 | 0 | — | No public social provider is active unless HYPEBOARD_SOCIAL_DATA_URL is configured. |
+
+## Validation warnings
+
+- Extreme daily rank changes detected: DKNG
